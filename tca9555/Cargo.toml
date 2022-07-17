@@ -2,6 +2,7 @@
 name = "tca9555"
 version = "0.1.0"
 edition = "2021"
+license = "MPL-2.0"
 keywords = ["embedded-hal"]
 readme = "../README.md"
 description = "Embedded-HAL driver crate for the TCA9555/TCA9535 16 port I/O expander."

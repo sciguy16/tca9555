@@ -1,0 +1,17 @@
+[package]
+name = "tca9555"
+version = "0.1.0"
+edition = "2021"
+keywords = ["embedded-hal"]
+readme = "../README.md"
+
+[features]
+default = ["unproven"]
+unproven = ["embedded-hal/unproven"]
+use_defmt = ["dep:defmt"]
+
+[dependencies]
+embedded-hal = "0.2"
+
+# feature = use_defmt
+defmt = { version = "0.3", optional = true }

@@ -1,0 +1,3 @@
+[workspace]
+members = ["tca9555", "examples/*"]
+default-members = ["tca9555"]

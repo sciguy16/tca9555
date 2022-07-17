@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 keywords = ["embedded-hal"]
 readme = "../README.md"
+description = "Embedded-HAL driver crate for the TCA9555/TCA9535 16 port I/O expander."
+repository = "https://github.com/sciguy16/tca9555"
 
 [features]
 default = ["unproven"]
